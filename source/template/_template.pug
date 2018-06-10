@@ -1,0 +1,19 @@
+include ./utils/_mixin.pug
+block variables
+
+doctype html
+html(lang="ru-RU")
+  head
+    meta(charset="utf-8")
+
+    block page-title
+      title #{title}
+
+    include ./base/head
+
+  body(class=bodyClass)
+    block content
+
+    script(src='./js/vendor.min.js' defer)
+    script(src='./js/common.js' defer)
+    block scripts

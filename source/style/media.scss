@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px){}
+
+@media screen and (max-width: 1024px){
+  .container{
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 1366px){}
+
+@media screen and (min-width: 1800px){}
+
+// Retina Display
+@media screen and (min-resolution: 144dpi), (min-resolution: 1.5dppx){}
